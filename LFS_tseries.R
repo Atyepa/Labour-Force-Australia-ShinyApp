@@ -272,12 +272,10 @@ server <- function(input, output) {
                  hc_colors(abscol) %>%
                  hc_plotOptions(series = list(marker = list(enabled = FALSE)))
     }
-    #group = paste0(SEX,", ", Series)) %>%
-    
+        
     hc
     
-    
-    })
+     })
   
   # Downloadable xlsx --
   output$downloadTb <- downloadHandler(
